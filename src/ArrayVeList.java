@@ -4,6 +4,8 @@ import java.util.List;
 public class ArrayVeList {
 
     public static void main(String[] args) {
+
+        //Kod Blogu calistirilirsa sonuc ne olur
         System.out.println("Programa Hosgeldinizz");
 
                 int[] array = {6,9,8};
