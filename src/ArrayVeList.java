@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 public class ArrayVeList {
 
@@ -15,6 +16,21 @@ public class ArrayVeList {
                 list.set(1, array[1]);
                 list.remove(0);
                 System.out.println(list);
+
+        System.out.println("Verilen Arrayin Reversesisini bulma");
+        int[] array1 = {1,2,3,4,5,6,7,8,9,0};
+        List<Integer>list2=new ArrayList<>();
+        for (int i = 0; i < array1.length; i++) {
+            list2.add(array1[i]);
+
+        }
+        System.out.println("Array = "+list2);
+        Collections.reverse(list2);
+
+        System.out.println("Reverse array ="+list2);
+
+
+
             }
         }
         /*
