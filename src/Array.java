@@ -11,7 +11,8 @@ public class Array {
         System.out.println("Verilen Arrayin Reversesisini bulma");
         int[] array1 = {1,2,3,4,5,6,7,8,9,0};
        List<Integer> list2=new ArrayList<>();
-        for (int i = 0; i < array1.length; i++) {
+
+        for (int i = 0; i < array1.length-1; i++) {
             list2.add(array1[i]);
 
         }
