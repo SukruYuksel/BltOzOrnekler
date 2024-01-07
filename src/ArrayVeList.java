@@ -6,7 +6,7 @@ public class ArrayVeList {
 
     public static void main(String[] args) {
 
-        //Kod Blogu calistirilirsa sonuc ne olur
+        //Kod Blogu calistirilirsa sonuc ne olur diye bir soru
         System.out.println("Programa Hosgeldinizz");
 
                 int[] array = {6,9,8};
@@ -16,18 +16,6 @@ public class ArrayVeList {
                 list.set(1, array[1]);
                 list.remove(0);
                 System.out.println(list);
-
-        System.out.println("Verilen Arrayin Reversesisini bulma");
-        int[] array1 = {1,2,3,4,5,6,7,8,9,0};
-        List<Integer>list2=new ArrayList<>();
-        for (int i = 0; i < array1.length; i++) {
-            list2.add(array1[i]);
-
-        }
-        System.out.println("Array = "+list2);
-        Collections.reverse(list2);
-
-        System.out.println("Reverse array ="+list2);
 
 
 
