@@ -6,7 +6,7 @@ public class ArrayVeList {
 
     public static void main(String[] args) {
 
-        //Kod Blogu calistirilirsa sonuc ne olur diye bir soru
+        //Kod Blogu calistirilirsa sonuc ne olur diye bir soru sorulabilir
         System.out.println("Programa Hosgeldinizz");
 
                 int[] array = {6,9,8};
