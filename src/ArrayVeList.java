@@ -16,7 +16,7 @@ public class ArrayVeList {
                 list.set(1, array[1]);
                 list.remove(0);
                 System.out.println(list);
-
+  System.out.println("Yeni Satir Eklendi);
 
 
             }
